@@ -14,15 +14,15 @@ import { Pagination } from "swiper";
 const Slidebar = () => {
 
   const [imgurl,setImgurl] = useState([
-    "./images/audia4.png",
-    "./images/lamborghini.webp",
-    "./images/bwmx5.jpg",
-    "./images/lamborghininero.webp",
-    "./images/lexus.jpg",
-    "./images/mercedes-G63.jpg",
-    "./images/porsche4s.jpg",
-    "./images/vinFast-Lux-SA2.0.png",
-    "./images/volvo.webp",
+    "./images/swiper1.jpg",
+    "./images/swiper9.jpg",
+    "./images/swiper8.jpg",
+    "./images/swiper7.jpg",
+    "./images/swiper6.jpg",
+    "./images/swiper5.jpg",
+    "./images/swiper4.jpg",
+    "./images/swiper3.jpg",
+    "./images/swiper2.jpg",
     
 ])
 

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className=' h-14'>
         <div className="px-20 flex items-center justify-between h-14">
-            <img className='w-16 h-auto' src="./images/logo.png" alt="" />
+            <img className='w-16 h-auto' src="./images/logo2.png" alt="" />
             <input type="text"
                 className="border-2 w-96 focus-visible:outline-none"
             />
