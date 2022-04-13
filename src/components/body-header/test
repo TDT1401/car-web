@@ -1,0 +1,14 @@
+{contentitem.map((value,key)=>{
+                              return(
+                              <div className="content-item row" key={key}>
+                                    <div className="content-item-img">
+                                          <img src={value} alt=""/>
+                                    </div>
+                                    <div className="content-item-text">
+                                          <h2>AUdi</h2>
+                                          <p>Giá từ: Từ 1,695 tỷ VND Nhà sản xuất: Audi</p>
+                                          <button className="btn">Khám phá</button>
+                                    </div>
+                              </div>
+                              )
+                        })}      
