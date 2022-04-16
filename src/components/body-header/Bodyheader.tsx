@@ -100,7 +100,7 @@ const Bodyheader = () => {
 
   return (
        <div className='body-header'>
-             <div className='container'>
+             <div className='containerr'>
                   <div className="body-content row">
                   {cars01.map((value,key)=>{
                               return(

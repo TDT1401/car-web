@@ -15,7 +15,7 @@ const Menu = () => {
     ])
   return (
     <nav className='bg-green-700 px-10 flex items-center justify-between text-white'>
-        <ul className='flex items-center justify-between w-full '> 
+        <ul className='flex items-center justify-between w-full'> 
             {menu.map((value,key)=>{
                 return(
                     <MenuMavigator key={key} text={value} />
