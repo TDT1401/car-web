@@ -1,5 +1,4 @@
 import React from "react";
-import "./Bottom.css";
 import { Li } from "./Li";
 const Bottom = () => {
   const menu = [
@@ -16,13 +15,13 @@ const Bottom = () => {
 
   return (
     <footer>
-      <div className="h-[350px] bg-orange-500">
+      <div className="h-[350px] bg-[#161616]">
         <div className="container row">
           {footer.map((value, key) => {
             return (
-              <div className="items-footer mt-4" key={key}>
+              <div className=" mt-4" key={key}>
                 <h1 className="text-white text-3xl mb-2">{value}</h1>
-                <ul className="w-full">
+                <ul className="w-full text-white">
                   {menu.map((value, key) => {
                     return <Li key={key} text={value} />;
                   })}
@@ -32,10 +31,18 @@ const Bottom = () => {
           })}
         </div>
       </div>
-      <div className="h-10 bg-black text-center relative">
-        <a className="text-white absolute pt-2 " href="App.tsx">
+      <div className="h-10 bg-black text-center">
+        <div className="text-white items-center pt-2 cursor-pointer"
+        onClick={() => 
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          })
+        }
+        >
+        
           Back to top
-        </a>
+        </div>
       </div>
     </footer>
   );

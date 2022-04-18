@@ -4,7 +4,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className=' h-14'>
+    <header className='bg-slate-300 h-14'>
         <div className="px-20 flex items-center justify-between h-14">
             <a href="#"><img className='w-16 h-auto' src="./images/logo2.png" alt="" /></a>
             <form action="" className='relative'>

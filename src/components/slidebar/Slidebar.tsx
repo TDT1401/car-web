@@ -6,8 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "./Slidebar.css";
-
 // import required modules
 import { Pagination } from "swiper";
 
@@ -29,11 +27,11 @@ const Slidebar = () => {
 
   return (
     <>
-    <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+    <Swiper pagination={true} modules={[Pagination]} className="w-full h-full mt-5">
       {imgurl.map((value,key)=>{
           return(
             <SwiperSlide key={key}>
-              <img src={value} alt="" />
+              <img className='w-[50%]' src={value} alt="" />
             </SwiperSlide>
           )
       })}
