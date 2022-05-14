@@ -1,4 +1,4 @@
-import React,{useRef, useState} from 'react'
+import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -11,7 +11,7 @@ import { Pagination } from "swiper";
 
 const Slidebar = () => {
 
-  const [imgurl,setImgurl] = useState([
+  const imgurl=[
     "./images/swiper1.jpg",
     "./images/swiper9.jpg",
     "./images/swiper8.jpg",
@@ -22,7 +22,7 @@ const Slidebar = () => {
     "./images/swiper3.jpg",
     "./images/swiper2.jpg",
     
-])
+]
 
 
   return (
@@ -31,7 +31,7 @@ const Slidebar = () => {
       {imgurl.map((value,key)=>{
           return(
             <SwiperSlide key={key}>
-              <img className='w-[50%]' src={value} alt="" />
+              <img className='w-1/2' src={value} alt="" />
             </SwiperSlide>
           )
       })}

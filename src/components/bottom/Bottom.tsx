@@ -15,7 +15,7 @@ const Bottom = () => {
 
   return (
     <footer>
-      <div className="h-[350px] bg-[#161616]">
+      <div className="h-96 bg-[#161616]">
         <div className="container row">
           {footer.map((value, key) => {
             return (
@@ -38,9 +38,7 @@ const Bottom = () => {
             top: 0,
             behavior: "smooth"
           })
-        }
-        >
-        
+        }>
           Back to top
         </div>
       </div>
